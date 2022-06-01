@@ -1,0 +1,20 @@
+package repositorio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public  class Carrinho{
+
+	List<ProdutoCarrinho> produtos = new ArrayList<ProdutoCarrinho>();
+	
+	
+	public void addProduto() {
+		
+		ProdutoCarrinho teste = new ProdutoCarrinho();
+		teste.setCodigo(1);
+		teste.setDescricao("Couro");
+		teste.setQtd(3);
+		teste.setPreco(20.50);		
+	}
+	
+}

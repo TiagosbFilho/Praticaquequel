@@ -1,0 +1,29 @@
+package repositorio;
+
+public class Televisores extends Produto {
+
+	public Televisores(int codigo, String descricao, double preco) {
+		super(codigo, descricao, preco);
+		// TODO Auto-generated constructor stub
+	}
+
+	int tamanho;
+	String tecnologia;
+
+	public int getTamanho() {
+		return tamanho;
+	}
+
+	public void setTamanho(int tamanho) {
+		this.tamanho = tamanho;
+	}
+
+	public String getTecnologia() {
+		return tecnologia;
+	}
+
+	public void setTecnologia(String tecnologia) {
+		this.tecnologia = tecnologia;
+	}
+
+}

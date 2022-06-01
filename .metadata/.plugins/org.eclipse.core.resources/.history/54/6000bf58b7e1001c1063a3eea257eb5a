@@ -1,0 +1,9 @@
+package repositorio;
+
+public class Televisores extends Produto {
+
+	int tamanho;
+	String tecnologia;
+	
+	
+}

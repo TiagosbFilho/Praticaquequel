@@ -1,0 +1,27 @@
+package loja;
+import java.util.Scanner;
+
+public class SuperLojas {
+
+	public static void main(String[] args) {
+	
+		Scanner input = new Scanner(System.in);
+		
+		int opcao = 0;
+		
+		
+		do {
+			
+			System.out.println("Adicionar produto ao carrinho\n" + "Remover produto do carrinho");
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}

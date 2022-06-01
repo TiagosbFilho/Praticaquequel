@@ -1,0 +1,38 @@
+package loja;
+import java.util.Scanner;
+
+public class SuperLojas {
+
+	public static void main(String[] args) {
+	
+		Scanner input = new Scanner(System.in);
+		
+		
+		
+		int opcao = 0;
+		do {
+			
+			System.out.println("1 -> Adicionar produto ao carrinho\n" + "2 -> Remover produto do carrinho\n" + "3 -> Visualizar carrinho de compras\n" + "4 -> Finalizar a compra\n" + "5 -> Cancelar compra");
+			
+			switch(opcao) {
+			
+			
+			case 1 : Adicionar();
+			break;
+			
+			}
+			
+		} while(opcao > 0 && opcao < 6);
+		
+		
+		
+		
+			
+			
+		}
+	public static void Adicionar() {
+		System.out.println("Olá!");
+		
+	}
+
+}

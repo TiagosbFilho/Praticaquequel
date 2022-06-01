@@ -1,0 +1,29 @@
+package repositorio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public  class Carrinho{
+
+	public List<ProdutoCarrinho> produtos = new ArrayList<ProdutoCarrinho>();
+	
+	
+	
+	public void addProduto() {		
+		ProdutoCarrinho teste = new ProdutoCarrinho();
+		teste.setCodigo(1);
+		teste.setDescricao("Couro");
+		teste.setQtd(3);
+		teste.setPreco(20.50);		
+	}
+	
+	public void listaTelevisor() {
+		for (ProdutoCarrinho produto : produtos) {
+			System.out.println("Cod:" + produto.getCodigo());
+			System.out.println("Descricao:" + produto.getDescricao());
+			System.out.println("Qtd:" + produto.getQtd());
+			System.out.println("Preo:" + produto.getPreco());	
+		}
+	}
+	
+}
